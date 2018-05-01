@@ -1,0 +1,91 @@
+.whole {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30;
+  	margin: 0 auto;
+  	background-color: #f2ebe0;
+	}
+	
+.header {
+	background-color: #f30;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-left: 3em;
+	text-align: left;
+	}
+	
+.idiom {
+	font-size: 8em;
+	font-weight: bold;
+	color:  #f2ebe0;
+	display: inline-block;
+	}
+	
+.edition {
+	font-size: 3em;
+	color: #f2ebe0;
+	text-align: right;
+	display: inline-block;
+	padding-left: 1em;
+	}
+	
+.col1 {
+	padding-left: 2em;
+	padding: 2em;
+	display: inline-block;
+	max-width: 33%;
+	}
+	
+.title {
+	font-size: 1.2em;
+	font-weight: 600;
+	padding-top: .5em;
+	}
+	
+.col2 {
+	padding-left: 1em;
+	padding: 2em;
+	display: inline-block;
+	max-width: 33%;
+	}
+	
+.col3 {
+	padding-left: 1em;
+	padding: 2em;
+	display: inline-block;
+	max-width: 33%;
+	}
+	
+.col4 {
+	padding-left: 2em;
+	padding-top: 1em;
+	display: inline-block;
+	}
+
+.transition {
+	color: #f30;
+	font-size: 7em;
+	font-weight: bold;
+	}
+
+.photo {
+	display: inline-block;
+	}
+	
+.title2 {
+	font-size: 5em;
+	font-weight: 700;
+	color: #f30;
+
+	}
+	
+.author {
+	font-size: 2em;
+	font-weight: 600;
+	line-height: 2;
+	}
+
+.poem {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
+	line-height: 2;
+	}
