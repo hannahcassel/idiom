@@ -88,12 +88,16 @@
 	}
 
 .caption {
+	font-size: 1em;
+	color: #f30;
 	transform: rotate(-90deg);
 	position: absolute;
-	left: 30em;
-	bottom: 15em;
+	width: 100%;
+
 	}
 	
+
+
 .title2 {
 	font-size: 2em;
 	font-weight: 700;
@@ -122,11 +126,21 @@
 	margin-top: 3em;
 	}
 	
+.salty .caption {	
+	left: 17em;
+	bottom: 16em;
+	}	
+
 .fathers {
 	padding-top: 3em;
 	border-top-style: solid;
 	border-top-color: #f30;
 	margin-top: 3em;
+	}
+	
+.fathers .caption {	
+	left: 27em;
+	bottom: 27em;
 	}
 	
 .dancing {
@@ -136,11 +150,21 @@
 	margin-top: 3em;
 	}
 	
+.dancing .caption {	
+	left: 28.5em;
+	bottom: 28em;
+	}
+	
 .transcience {
 	padding-top: 3em;
 	border-top-style: solid;
 	border-top-color: #f30;
 	margin-top: 3em;
+	}
+	
+.transcience .caption {	
+	left: 12em;
+	bottom: 11em;
 	}
 	
 .eve {
@@ -150,12 +174,22 @@
 	margin-top: 3em;
 	}
 	
+.eve .caption {	
+	left: 13.5em;
+	bottom: 13em;
+	}
+	
 .things {
 	padding-top: 3em;
 	border-top-style: solid;
 	border-top-color: #f30;
 	margin-top: 3em;
 	}	
+	
+.things .caption {	
+	left: 16em;
+	bottom: 15em;
+	}
 	
 .back {
 	position: fixed;
@@ -173,3 +207,68 @@
 .back a:hover {
 	color: black;
 	}
+	
+	
+	
+
+@media only screen and (max-device-width: 850px) {
+    /* For mobile phones: */
+    
+    
+.idiom {
+	font-size: 6em;
+	}
+    
+.edition {
+	font-size: 3em;
+	}
+	
+.col1, .col1 img {
+	max-width: 95%;
+	width: 95%;
+	}
+	
+.thumbnail {
+	max-height: 400px;
+	overflow: hidden;
+    }
+    
+.col2, .col2 img {
+	max-width: 95%;
+	width: 95%;
+	}  
+    
+.col3, .col3 img {
+	max-width: 95%;
+	width: 95%;
+	}  
+
+	
+.title {
+	font-size: 3em;
+	}
+    
+.caption {
+	transform: initial;
+	position: initial;
+	font-size: 1.8em;
+	color: black;
+	}
+ 
+ .photo, .photo img {
+ 	max-width: 95%;
+ 	width: 95%
+ 	}   
+ 	
+ .back {
+	position: initial;
+	text-align: right;
+	padding: 3em;
+	}
+	
+	
+	
+	
+	
+    
+    }
